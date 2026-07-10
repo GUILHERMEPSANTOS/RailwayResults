@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="RailwayResults/RailwayResults.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/RailwayResult.Tests/RailwayResult.Tests.csproj" Id="47087d98-e3e7-49b1-bef4-fc2d029413d9" />
+    <Project Path="src/RailwayResults/RailwayResults.csproj" />
+  </Folder>
 </Solution>
