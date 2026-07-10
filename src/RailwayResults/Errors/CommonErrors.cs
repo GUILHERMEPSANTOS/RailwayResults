@@ -5,6 +5,11 @@ public static class CommonErrors
     public static readonly Error None =
         Error.None();
 
+    public static readonly Error MultipleErrors =
+       Error.Validation(
+           "General.MultipleErrors",
+           "A operação falhou devido a múltiplos erros.");
+
     public static readonly Error NullValue =
         Error.Validation(
             "General.NullValue",

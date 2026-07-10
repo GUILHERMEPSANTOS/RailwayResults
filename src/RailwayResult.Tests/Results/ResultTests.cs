@@ -3,7 +3,7 @@ using RailwayResults.Errors;
 using RailwayResults.Results;
 using Xunit;
 
-namespace RailwayResults.Tests.Results;
+namespace RailwayResult.Tests.Results;
 
 public class ResultTests
 {

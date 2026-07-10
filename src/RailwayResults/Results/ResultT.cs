@@ -5,7 +5,7 @@ namespace RailwayResults.Results
     {
         public TValue Value { get; }
 
-        private Result(bool isSuccess, Error error, TValue value)
+        protected Result(bool isSuccess, Error error, TValue value)
             : base(isSuccess, error)
         {
             Value = value;

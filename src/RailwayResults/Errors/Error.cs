@@ -33,5 +33,7 @@ namespace RailwayResults.Errors
               => new(code, message, ErrorType.Unauthorized);
         public static Error None()
               => new(string.Empty, string.Empty, ErrorType.None);
+        public static IEnumerable<Error> Empty()
+           => [];
     }
 }
