@@ -2,9 +2,9 @@
 
 namespace RailwayResults.Results
 {
-    public sealed class ValidationResultBuilder
+    public class ValidationResultBuilder
     {
-        private readonly List<Error> _errors = [];
+        protected readonly List<Error> _errors = [];
 
         public ValidationResultBuilder CheckNotNull<TValue>(TValue value, Error error)
         {
@@ -30,7 +30,7 @@ namespace RailwayResults.Results
             return this;
         }
 
-        public ValidationResult Build()
+        public  ValidationResult Build()
         {
             return _errors.Count == 0 
                 ? ValidationResult.Success() 
