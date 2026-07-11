@@ -1,4 +1,4 @@
-﻿using RailwayResults.Errors;
+﻿    using RailwayResults.Errors;
 
 namespace RailwayResults.Results
 {
