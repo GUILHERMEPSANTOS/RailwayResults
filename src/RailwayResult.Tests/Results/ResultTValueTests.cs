@@ -2,7 +2,7 @@
 using RailwayResults.Errors;
 using RailwayResults.Results;
 
-namespace RailwayResults.Tests.Results;
+namespace RailwayResult.Tests.Results;
 
 public class ResultTValueTests
 {
