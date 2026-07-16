@@ -1,9 +1,7 @@
 ﻿using RailwayResults.Abstractions;
 using RailwayResults.Errors;
-using RailwayResults.Results;
-using Xunit;
 
-namespace RailwayResult.Tests.Results;
+namespace RailwayResults.Results;
 
 public class ResultTests
 {
